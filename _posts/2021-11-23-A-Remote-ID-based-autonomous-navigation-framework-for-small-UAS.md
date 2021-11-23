@@ -11,7 +11,7 @@ As per Federal Aviation Agency's (FAA) definition, **remote ID is the ability of
 
 Large autonomous systems, such as self driving cars, deploy an array of sensors such as camera, LIDAR, RADAR, etc for perception and SLAM. However, for small UAS, these sensors can be bulky and can substantially reduced its weight carrying capacity. Relying on a one or fewer sensors can reduce reliability. For example, relying just on the camera for obstacle prediciton and tracking, in a sparse but highly dynamic environment will be error prone. Keeping this in mind, in our National Science Foundation (NSF) sponsored project, we have developed a collision-free autonomous navigation framework which uses the Remote ID concept to carry out tasks such as environment perception and obstacle tracking. The developed framework can be used as the primary or support stack. A schematic of the framework is given below. 
 
-<img src="/images/framework_schematic.JPG" alt="Schematic for the UAS navigation framework" width="200"/>
+<img src="/images/framework_schematic.JPG" alt="Schematic for the UAS navigation framework" width="600"/>
 
-# (![Schematic](/images/framework_schematic.JPG)
+
 
