@@ -21,7 +21,7 @@
 title: A Remote ID based autonomous navigation framework for small UAS
 email: rachitp@vt.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This site serves as an online documentation on the autonomous UAS navigation project.  
+  This site serves as an online documentation on my autonomous navigation framework for small UAS project.  
 baseurl: "/UAV_autonomous_navigation" # the subpath of your site, e.g. /blog
 url: "https://rachitpras.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  rachitpras
