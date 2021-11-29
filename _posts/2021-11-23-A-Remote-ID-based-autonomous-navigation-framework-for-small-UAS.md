@@ -21,7 +21,7 @@ A schematic of the navigation framework is given below:
   <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/framework_schematic.JPG" alt="Schematic for the UAS navigation framework" width="800"/> 
 </p>  
 <p align = "center">
-  Schematic for the UAS navigation framework.
+  <b>Schematic for the UAS navigation framework.</b>
 </p>  
 
 
