@@ -9,7 +9,7 @@ As per Federal Aviation Agency's (FAA) definition, **remote ID is the ability of
 
 # A collision-free, autonomous navigation framework for small UAS using remote ID
 
-Large autonomous systems, such as self driving cars, deploy an array of sensors such as cameras, LIDAR, RADAR, etc for perception and SLAM. However, for small UAS, these sensors can be bulky and can substantially reduced its payload carrying capacity. Relying on one or fewer sensors can reduce reliability. For example, it is error prone to rely on just the camera for obstacle prediciton and tracking, in a sparse but highly dynamic environment that drones operate in. Keeping this in mind, in our National Science Foundation (NSF) sponsored project, we have developed a collision-free, autonomous navigation framework which uses the Remote ID concept to carry out tasks such as environment perception and obstacle tracking. The developed framework can be used as the primary or support stack. The objectives of our project are:
+Large autonomous systems, such as self driving cars, deploy an array of sensors such as cameras, LIDAR, RADAR, etc for perception and SLAM. However, for small UAS, these sensors can be bulky and can substantially reduced its payload carrying capacity. Relying on one or fewer sensors can reduce reliability. For example, it is error prone to rely on just the camera for obstacle prediciton and tracking, in a sparse but highly dynamic environment that drones generally operate in. Keeping this in mind, in our National Science Foundation (NSF) sponsored project, we have developed a collision-free, autonomous navigation framework which uses the Remote ID concept to carry out tasks such as environment perception and obstacle tracking. The developed framework can be used as the primary or support stack. The objectives of our project are:
 1. To design and build an autonomous navigation framework, which enables a small UAS to successfully navigate to the goal, avoiding obstacles, without any human intervention. The obstacle information is to be solely obtained through the Remote ID server.
 2. To demostrate the above framework, both through simulations and through flight tests.
 3. To design a data-driven target tracking module, which uses machine learning based approaches, instead of Kalman filter based ones. 
@@ -29,13 +29,19 @@ The framework consists of different modules performing different roles. The **re
 
 Some simulated results for an example scenario are shown below. The animations are for the same scenario, but with different motion planners, the first being generated using the Artificial Potential Field method, while in the second animation, the path has been generated using the hierarchical planner made up of A* and Finite State Machine.   
 
-<figure>
+<p align = "center">
   <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/2_drone_test_APF_3D.gif" alt="Autonomous UAV navigation using the APF planner" width="800"/> 
-  <figcaption text-align = "center"><b>Autonomous UAV navigation using the APF planner.</b></figcaption>
-</figure>
+</p> 
+<p align = "center">
+  <b>Autonomous UAS navigation using the APF planner.</b>
+</p>  
 
-<figure>
-  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/2_drone_test_BP_3D.gif" alt="Autonomous UAV navigation using the APF planner" width="800"/> 
-  <figcaption text-align = "center"><b>Autonomous UAV navigation using the hierarchical planner.</b></figcaption>
-</figure>
 
+<p align = "center">
+  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/2_drone_test_BP_3D.gif" alt="Autonomous UAV navigation using the hierarchical planner" width="800"/> 
+</p> 
+<p align = "center">
+  <b>Autonomous UAV navigation using the hierarchical planner.</b>
+</p>  
+
+## In the process of carrying out flight tests, results to be posted soon!
