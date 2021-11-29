@@ -14,7 +14,8 @@ The goal of this article is to provide additional insight into the Remote ID bas
   <b>A client-service interaction using REST API.</b>
 </p>  
 
-Coming back to the Remote ID communication module, the purpose of broadcasting information to the remote ID server is met using the POST request. The body of the POST request compromises of a JSON message in a format shown below.  
+## REST API based communication
+Coming back to the Remote ID communication module, the purpose of broadcasting information to the remote ID server is met using the POST request. The body of the POST request compromises of a JSON message in a format shown below. The purpose of requesting information from the remote ID server is met using the GET request, wherein the message contains the GPS information of the ego-vehicle and the remote ID server returns the trajectory history of other drones in the vicinity and static obstacle information in GeoJSON format. 
 
 <p align = "center">
   <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/Remote_ID_message.JPG" alt="Format of message required to be broadcasted to the Remote ID server (source: FAA)" width="200"/> 
@@ -22,3 +23,6 @@ Coming back to the Remote ID communication module, the purpose of broadcasting i
 <p align = "center">
   <b>A Format of message required to be broadcasted to the Remote ID server (source: FAA).</b>
 </p>  
+
+## Implementation
+The module was first developed in Python (using the [requests library](https://docs.python-requests.org/en/latest/)) and tested using [Postman](https://www.postman.com/). Postman is a tool which greatly improves the process of API development and testing. Once the framework was tested, the code was converted to C++ for embedded real time implementation. REST API requests in C/C++ are carried out using [cURL](https://curl.se/). However, [C++ requests](https://docs.libcpr.org/) was used for easy implementation. C++ Requests is a simple wrapper around cURL inspired by the Python Requests project, which provides a cleaner and easy to read syntax to use cURL.
