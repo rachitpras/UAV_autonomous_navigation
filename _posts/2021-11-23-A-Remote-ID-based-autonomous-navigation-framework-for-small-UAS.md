@@ -19,7 +19,12 @@ The framework consists of different modules performing different roles. The **re
 Some simulated results for an example scenario are shown below. The animations are for the same scenario, but with different motion planners, the first being generated using the Artificial Potential Field method, while in the second animation, the path has been generated using the hierarchical planner made up of A* and Finite State Machine.   
 
 <figure>
-  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/2_drone_test_BP_3D.gif" alt="Schematic for the UAS navigation framework" width="800"/> 
+  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/2_drone_test_APF_3D.gif" alt="Autonomous UAV navigation using the APF planner" width="800"/> 
   <figcaption text-align = "center"><b>Autonomous UAV navigation using the APF planner.</b></figcaption>
 </figure>
-<!--- ![Animation of the APF based framework](https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/2_drone_test_BP_3D.gif) -->
+
+<figure>
+  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/2_drone_test_BP_3D.gif" alt="Autonomous UAV navigation using the APF planner" width="800"/> 
+  <figcaption text-align = "center"><b>Autonomous UAV navigation using the hierarchical planner.</b></figcaption>
+</figure>
+
