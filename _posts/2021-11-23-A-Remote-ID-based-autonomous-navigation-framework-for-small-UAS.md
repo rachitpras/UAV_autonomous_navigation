@@ -4,23 +4,6 @@ title:  "A Remote ID based autonomous operations framework for small UAS"
 date:   2021-11-23 10:26:20 -0500
 categories: Project explanation
 ---
-<head>
-<style>
-figure {
-  border: 1px #cccccc solid;
-  padding: 4px;
-  margin: auto;
-}
-
-figcaption {
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-}
-</style>
-</head>
 
 As per Federal Aviation Agency's (FAA) definition, **remote ID is the ability of a drone in flight to provide identification and location information that can be received by other parties**. As per the FAA, remote ID will play an important role in the integration of autonomous Unmanned Aerial Systems (UAS) operations in the National Aerospace System. The final rule on remote ID will require most drones operating in US airspace to have remote ID capability. Remote ID will provide information about drones in flight, such as the identity, location, and altitude of the drone and its control station or take-off location. Authorized individuals from public safety organizations may request identity of the drone's owner from the FAA. More details on this can be found from [FAA's website](https://www.faa.gov/uas/getting_started/remote_id/).
 
@@ -31,7 +14,9 @@ Large autonomous systems, such as self driving cars, deploy an array of sensors 
 2. To demostrate the above framework, both through simulations and through flight tests.
 3. To design a data-driven target tracking module, which uses machine learning based approaches, instead of Kalman filter based ones. 
 
+<p align = "center">
 A schematic of the navigation framework is given below: 
+</p>
 
 <figure>
   <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/framework_schematic.JPG" alt="Schematic for the UAS navigation framework" width="800"/> 
