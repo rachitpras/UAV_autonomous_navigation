@@ -9,7 +9,7 @@ In this article, I will discuss the architecture of the trajectory tracking cont
 As shown in the schematic below, both the control architectures follow a cascading control strategy, where the position and attitude control are carried out by different controllers. The position controller takes the desired position, velocity and acceleration as inputs and outputs the reference pitch, roll angles and the thrust force. The reference pitch, roll and yaw (from the planner) angles serve as it input for the attitude controller, which in turn outputs the reference pitch, roll and yaw moments.
 
 <p align = "center">
-  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/controller.JPG" alt="Schematic of the controller architecture" width="200"/> 
+  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/controller.JPG" alt="Schematic of the controller architecture" width="600"/> 
 </p> 
 <p align = "center">
   <b>Schematic of the controller architecture.</b>
