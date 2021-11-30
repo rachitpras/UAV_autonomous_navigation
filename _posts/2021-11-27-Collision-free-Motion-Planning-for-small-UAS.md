@@ -11,7 +11,7 @@ In this article, I will discuss the motion planner used in my autonomous UAV nav
 The basic principle behind the approach involves associating  the goal with a global attractive potential and the obstacles with a local, repulsive potential, like shown in the illustration below. By differentiating the resulting potential field, a force field can be obtained, which can then be integrated to generate a collision free trajectory, as shown below.
 
 <p align = "center">
-  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/apf_example.JPG" alt="Illustration demonstrating the APF method" width="400"/> 
+  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/apf_example.jpg" alt="Illustration demonstrating the APF method" width="400"/> 
 </p> 
 <p align = "center">
   <b>Illustration demonstrating the APF method.</b>
