@@ -15,6 +15,8 @@ As shown in the schematic below, both the control architectures follow a cascadi
   <b>Schematic of the controller architecture.</b>
 </p> 
 
+In the case of the PID controller architecture, both the position and attitude controllers are PID controllers. While in the case of the MPC controller architecture, feedback linearization control is used for position control and linear, parameter-varying model predictive control (LPV-MPC) is used for attitude control.
+
 ## Mapping the propeller speed from reference thrust and moments
 Both the control architectures output the reference thrust and roll, pitch and yaw moments. These four references outputs are then need to be mapped to the rotor speeds of the four propellers. The mapping relation is given by the equations below, where U<sub>1-4</sub> are the thrust and roll, pitch and yaw moments respectively. *l* is the propeller arm length from the CG and CT and CQ are the thrust and moment coefficients respectively. 
 
