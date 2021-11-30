@@ -10,7 +10,7 @@ In this article, I will discuss the architecture of the trajectory tracking cont
 Both the control architectures output the reference thrust and roll, pitch and yaw moments. These four references outputs are then mapped to the propellor's rotor speed. The mapping relation is given by the equations below, where U<sub>1-4</sub> are the thrust and roll, pitch and yaw moments respectively. *l* is the propeller arm length from the CG and CT and CQ are the thrust and moment coefficients respectively. 
 
 <p align = "center">
-  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/mapping_rotation_rate.JPG" alt="Mapping of the reference force and moments to the rotation rate" width="800"/> 
+  <img src="https://github.com/rachitpras/UAV_autonomous_navigation/blob/main/images/mapping_rotation_rate.JPG" alt="Mapping of the reference force and moments to the rotation rate" width="200"/> 
 </p> 
 <p align = "center">
   <b>Mapping of the reference force and moments to the rotation rate.</b>
